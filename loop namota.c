@@ -1,0 +1,12 @@
+# include <stdio.h>
+int main ()
+{
+    int a, b=1;
+    printf ("Enter the number you want to get namota:");
+    scanf ("%d", &a);
+    while (b<=10)   {
+        printf ("%d X %d = %d\n", a, b, a*b);
+        b++;
+    }
+    return 0;
+}
