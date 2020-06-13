@@ -1,2 +1,2 @@
 # C-basic
-20200613 Very Firt Commit
+20200613 Very Fisrt Commit
