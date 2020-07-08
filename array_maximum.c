@@ -11,6 +11,6 @@ int main ()
         if (a[i]>maximum)
             maximum = a[i];
     }
-    printf ("%d", maximum);
+    printf ("This is output :%d", maximum);
     return 0;
 }
