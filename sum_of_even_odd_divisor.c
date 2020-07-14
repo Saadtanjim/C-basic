@@ -11,7 +11,7 @@ int main ()
         if (a % i == 0)
         {
             printf ("\nAll Divisor is :");
-            printf ("%d ", i);
+            printf (" %d ", i);
             if (i % 2 == 0)
             {
                 even++;
