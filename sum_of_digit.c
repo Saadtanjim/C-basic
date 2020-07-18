@@ -2,6 +2,7 @@
 int main ()
 {
     int i, sum = 0;
+    printf ("Enter any number:");
     scanf ("%d", &i);
     while (i > 0)
     {
