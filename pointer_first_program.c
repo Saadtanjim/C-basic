@@ -23,6 +23,5 @@ int main ()
   printf ("This is through variable: %d\n", first_pointer);
   printf ("This is through pointer : %d\n", *p);
 
-
   return 0;
 }

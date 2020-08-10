@@ -27,4 +27,5 @@ int main ()
   {
     print_array (a[i], columns);
   }
+  return 0;
 }
