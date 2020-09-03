@@ -2,6 +2,7 @@
 int main ()
 {
   int i, n, a[5], temp;
+  printf ("ENter how many number you want to input less than equal five :");
   scanf("%d", &n);
   printf ("Enter five number: ");
   for (i=0; i<n; i++)
@@ -14,7 +15,7 @@ int main ()
     a[i] = a[last_index];
     a[last_index] = temp;
 
-    last_index--;saw
+    last_index--;
   }
   for(i = 0; i<n; i++) {
     printf("%d ", a[i]);

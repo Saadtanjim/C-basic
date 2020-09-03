@@ -9,7 +9,6 @@ void print_string_reverse (char a[])
 {
   int str_length, n;
   str_length = getstringlength(a);
-  printf ("%d\n", i);
   for (n=str_length-1;n>=0; n--)
   {
     printf ("%c", a[n]);

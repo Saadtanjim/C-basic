@@ -6,11 +6,12 @@ int main ()
     int sum = 0, sum1 = 0;
     printf ("Enter the number you want :");
     scanf ("%d", &a);
+    printf ("\nAll Divisor is :");
     for (i=1; i<=a; i++)
     {
         if (a % i == 0)
         {
-            printf ("\nAll Divisor is :");
+
             printf (" %d ", i);
             if (i % 2 == 0)
             {
@@ -28,5 +29,6 @@ int main ()
     printf ("\n\nNumber of odd divisor is : %d\n", odd);
     printf ("\n\nSum of even divisor is : %d\n", sum);
     printf ("\n\nSum of odd divisor is ; %d\n", sum1);
+    printf ("\n\nSum of ALL DIVISOR IS :%d\n", sum+sum1);
     return 0;
 }
